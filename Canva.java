@@ -20,5 +20,12 @@ public class Canvas extends JPanel {
         //Aquí se hace el sol
         g.setColor(Color.YELLOW);
         g.fillOval(40, 40, 20, 20);
+        
+        //Cambio hecho el 1 de octubre
+        //Aquí se hacen las montañas y el arbol
+        Paintbrush paintBrush = new Paintbrush(g);
+        paintBrush.drawSky();
+        paintBrush.drawMountains();
+        paintBrush.drawTree();
     }    
 }
