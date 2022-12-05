@@ -101,11 +101,11 @@ public class SegundaEvaluacion {
         Professor professor3 = new Professor("José Bejar", "Analisis de Algoritmos", 503, "Métodos Numericos", 302, "Estructuras de Datos", 401);
         System.out.println("Professor´s name: " + professor3.getName());
         System.out.println("Subject 1: " + professor3.getSubject1());
-        System.out.println("Section: " + professor2.getSection1());
+        System.out.println("Section: " + professor3.getSection1());
         System.out.println("Subject 2: " + professor3.getSubject2());
-        System.out.println("Section: " + professor2.getSection2());
+        System.out.println("Section: " + professor3.getSection2());
         System.out.println("Subject 3: " + professor3.getSubject3());
-        System.out.println("Section: " + professor2.getSection3());
+        System.out.println("Section: " + professor3.getSection3());
     }
     
 }
